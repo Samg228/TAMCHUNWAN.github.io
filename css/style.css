@@ -1,0 +1,276 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+input,button{
+	border: none;
+	outline: none;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.home{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	height: 100vh;
+	background-image: url('../images/home.jpeg');
+	background-size: 100% 100vh;
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+
+.logo{
+	width: 52px;
+}
+
+.header{
+	padding-top: 100px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .nav a{
+	text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.16);
+	color: rgba(56, 62, 55, 1);
+	font-size: 20px;
+	margin-left: 88px;
+}
+
+.name{
+	color: rgba(66, 70, 67, 1);
+	font-size: 55px;
+	margin-top: 120px;
+}
+
+.intr-text{
+	color: rgba(66, 70, 67, 1);
+	font-size: 21px;
+}
+
+.go-btn{
+	margin-top: 80px;
+}
+
+.go-btn button{
+	width: 309px;
+	height: 55px;
+	background: rgba(255, 239, 133, 1);
+	border-radius: 15px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 24px;
+}
+button:hover{
+	cursor: pointer;
+}
+
+.center{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.top24{
+	margin-top: 24px;
+}
+
+.product-list{
+	padding: 80px 0;
+}
+
+.product-item{
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.top-btn{
+	justify-content: flex-end;
+	margin-bottom: 24px;
+}
+
+.top-btn button{
+	width: 66px;
+	height: 66px;
+	background: rgba(27, 56, 255, 0.88);
+	color: rgba(255, 255, 255, 1);
+	font-size: 18px;
+	line-height: 66px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.page{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.explore-header{
+	background-color: rgba(39, 39, 39, 1);
+	padding: 24px 88px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.explore-header .page-name{
+	color: rgba(255, 255, 255, 1);
+	font-size: 47px;
+}
+.explore-search-wrap{
+	margin: 40px 0;
+}
+.explore-search{
+	width: 700px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.explore-search input{
+	width: 617px;
+	height: 53px;
+	padding: 8px 16px;
+	background: #fff;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 16px;
+	box-shadow: 0px 3px 6px 0px rgba(72, 72, 72, 0.16);
+}
+.avatar{
+	width: 54px;
+	position: relative;
+	left: 10px;
+}
+
+.explore-list{
+	width: 700px;
+	margin: 0 auto;
+}
+.title{
+	color: rgba(0, 0, 0, 1);
+	font-size: 24px;
+}
+
+.list-header{
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.menu-icon{
+	width: 28px;
+}
+.explore-list .list{
+	justify-content: space-between;
+}
+.item img{
+	width: 150px;
+	height: 194px;
+}
+.item p{
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.16);
+	color: rgba(0, 0, 0, 1);
+	font-size: 15px;
+}
+
+.explore-pro{
+	margin-top: 40px;
+}
+.explore-pro .title{
+	margin-bottom: 24px;
+}
+
+.list .pro{
+	justify-content: space-between;
+}
+
+.list .pro img{
+	width: 343px;
+	height: 241px;
+}
+.page .left{
+	width: 60%;
+	height: 100vh;
+	padding: 80px 200px;
+}
+.page .right{
+	width: 40%;
+	height: 100vh;
+	background-image: url(../images/img3.jpeg);
+	background-size: 100% 100vh;
+	background-repeat: no-repeat;
+}
+
+.cart-name{
+	font-size: 30px;
+	margin-top: 60px;
+}
+
+.text{
+	margin-top: 60px;
+	width: 400px;
+	font-size: 20px;
+}
+
+.cart-form{
+	margin-top: 110px;
+	margin-bottom: 88px;
+	justify-content: space-between;
+	align-items: center;
+	width: 344px;
+}
+
+.cart-form .dot{
+	width: 29px;
+	height: 29px;
+	background: rgba(255, 229, 170, 1);
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	border-radius: 50%;
+}
+
+.cart-form .dot.active{
+	background-color: rgba(255, 195, 75, 1);
+}
+
+.cart-form .line{
+	width: 48px;
+	border: 4px solid rgba(112, 112, 112, 1);
+}
+
+.cart-form .number{
+	font-size: 36px;
+}
+
+.cart-btn button{
+	width: 344px;
+	height: 83px;
+	background: rgba(255, 239, 133, 1);
+	font-size: 19px;
+}
+
+.arrows img{
+	width: 56px;
+}
+.arrows img:hover{
+	cursor: pointer;
+}
+
+.iconhome{
+	width: 42px;
+}

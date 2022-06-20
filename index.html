@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">  
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="content">
+				<div class="center">
+					<div class="header flex">
+						<img  src="images/logo.png" class="logo"/>
+						<div class="nav">
+							<a href="#">shop</a>
+							<a href="explore.html">Explore</a>
+							<a href="#">account</a>
+							<a href="cart.html">cart</a>
+						</div>
+					</div>
+					<p class="name">Homika</p>
+					<p class="intr-text">Create your dream room</p>
+					<div class="go-btn">
+						<button>Get Started</button>
+					</div>
+				</div>
+			</div>
+			<div class="product-list center">
+				<div class="flex product-item">
+					<img  src="images/1.png"/>
+					<img  src="images/2.png"/>
+					<img  src="images/3.png"/>
+				</div>
+				<div class="flex product-item">
+					<img  src="images/1.png"/>
+					<img  src="images/2.png"/>
+					<img  src="images/3.png"/>
+				</div>
+				<div class="flex product-item">
+					<img  src="images/3.png"/>
+					<img  src="images/1.png"/>
+					<img  src="images/2.png"/>
+				</div>
+			</div>
+			<div class="top-btn center flex" id="go">
+				<button>Top</button>
+			</div>
+		</div>
+		<script>
+			var go = document.querySelector('#go')
+			go.addEventListener('click',function(){
+				window.scrollTo(0,0)
+			})
+		</script>
+	</body>
+</html>

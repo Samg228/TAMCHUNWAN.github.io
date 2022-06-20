@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="css/style.css"> 
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="page flex">
+				<div class="left">
+					<div class="arrows" id="back">
+						<img  src="images/left.png"/>
+					</div>
+					<p class="cart-name">Modern Table</p>
+					<p class="text">Loerm ipsum sit amet, consectetur adipiscing edit. Donec pretium ante erat,vitae sodales mi variusquis.</p>
+					<div class="flex cart-form">
+						<span class="dot active"></span>
+						<span class="dot"></span>
+						<span class="line"></span>
+						<span class="number">1</span>
+					</div>
+					<div class="cart-btn">
+						<button>Add to Cart</button>
+					</div>
+				</div>
+				<div class="right"></div>
+			</div>
+		</div>
+		<script>
+			var back = document.querySelector("#back")
+			back.addEventListener('click',function(){
+				location.href = 'index.html'
+			})
+		</script>
+	</body>
+</html>
